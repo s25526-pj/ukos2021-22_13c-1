@@ -1,0 +1,16 @@
+Zadania:
+
+1. Uruchomiłam iTerm.
+2. Użyłam komendy ll, która jest aliasem dla ls -alF.
+3. Użyłam komendy pwd, żeby sprawdzić gdzie się znajduję (print work directory).
+4. Będąc w katalogu domowym użyłam komendy cd Desktop. 
+5. Użyłam komendy pwd.
+6. Komenda ll
+7. Sprawdziłam na pulpicie
+8. ll ../
+9. Użyłam komendy cd ../Pictures
+10. Komenda pwd
+11. Nie przejdę nigdzie
+12. cd /Users/katarzynakarasz
+13. Na moim obecnym systemie operacyjnym ten katalog nie istnieje. Natomiast na Ubuntu Server mojego chłopaka otrzymałam komunikat: bash: cd: /root:  Permission Denied.
+14. To służy do przełączania się między konsolami na jednej maszynie. Po wciśnięciu tych klawiszy nie stało się nic ponieważ byłam w pierwszej konsoli.
