@@ -1,0 +1,2 @@
+Drogi pamietniku dzisiaj nauczylem sie:
+-podstaw obslugi git'a
