@@ -1,0 +1,13 @@
+Opis pierwszego zadania
+
+W celu ukonczenia 1. zadania trzeba stworzyc kilka katalogow, plikow tekstowych i usunac czesc z nich uzywaja kilku roznych komend.
+
+Aby utworzyc nowy folder uzywam polecenia : mkdir
+Aby utworzyc kilka zagniezdzonych katalogow musze uzyc: mkdir -p i/tutaj/wpisac/sciezke/do/utworzenia
+Tworzenie nowego pliku tekstowego, mozliwe jest za pomoca: touch <nazwa pliku> lub echo "tresc pliku" > nazwa_pliku
+Usuniecie samej zawartosci z rozszerzeniem .txt, wymaga komendy rm -r *.txt
+Aby usunac pusty, zagniezdzony folder, trzeba uzyc: rmdir i/podac/sciezke - ostatni katalog w sciezce jest usuwany
+Aby usunac kilka katalogow, trzeba uzyc: rmdir -p i/podac/cala/sciezke,
+a w przypadku gdy znajduja sie w srodku inne pliki, trzeba uzyc: rm -r i/podac/sciezke
+
+
