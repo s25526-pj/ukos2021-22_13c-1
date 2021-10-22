@@ -1,0 +1,6 @@
+2021.11.21
+
+W dniu 2021.11.09 nauczyłam się:
+- podstaw obsługi git;
+- podstaw obsługi maszyny wirtualnej;
+- kilku poleceń i funkcji używanych w terminalu; 
