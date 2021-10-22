@@ -1,4 +1,0 @@
-2020.10.21
-Dorgi pamiętniczku na ostatnich zajęciach nauczyłem się:
-1.instalacji linuxa
-2.podstawowej obsługi gita
