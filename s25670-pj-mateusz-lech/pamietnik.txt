@@ -1,2 +1,3 @@
 Drogi pamietniku dzisiaj nauczylem sie:
 -podstaw obslugi git'a
+-podstawowych komend w linuxie
