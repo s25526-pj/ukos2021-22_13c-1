@@ -1,3 +1,21 @@
+2021-10-31
+Drogi pamietniku,
+za mna kolejne zajecia z UKOS. Nauczylem sie kolejnych rzeczy, zwiazanych z przyznajawaniem praw plikom i folderom. Prawa danego pliku/folderu sa widoczne po wpisaniu funkcji ls -l. Pierwsza literka oznacza typ pliku, a dalszy ciag odzwierciedla typ prawa jakie posiadaja. Grupy posiadajace takie prawa to:
+-u - wlasciciel
+-g - grupa
+-o - inni uzytkownicy
+Jesli chodzi o pliki i prawie jakie mozna im przypisac to:
+-(r)ead - pozwala na odczyt pliku
+-(w)rite - pozwala edytowac plik
+-e(x)ecute - pozwala do wlaczenia pliku (odnosi sie to do skryptow oraz programow binarnych.
+W przypadku folderow/katalogow, te prawa maja rozszerzona definicje
+-r- prawo do uzyskania informacji jakie nazwy, atrybuty maja pliki i katalogi zawarte w danym katalogu
+-w- pozwala na edycje, dodawanie,usuwanie plikow i folderow z danego katalogu
+-x- prawo pozwalajace na uczynienie danego katalogu jako katalog biezacy.
+
+Powyzsze prawa, mozna nadac wywolujac komende "chmod komu_jakie nazwa_pliku".
+Nadane prawo widnieje jako odpowiednia literka, a brak prawa wyswietlany jest jako znak "-".
+
 2021-10-16
 Drogi pamietniku,
 w zeszly weekend mialem pierwsze zajecia na PJATK Gdansk. Miedzy innymi byly zajecia UKOS, na ktorych nauczylem sie:
