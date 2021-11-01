@@ -1,0 +1,10 @@
+Zad. 2:
+
+1. Za pomocą cd przeszłam do swojego katalogu w którym tworzę rzeczy na studia
+2. Stworzyłam drzewo katalogów za pomocą komendy mkdir
+3. W katalogu ukos/klamka stworzyłam pliki za pomocą polecenia touch (zajęcia2.txt zajęcia2.log inny.txt nowy.txt)
+4. Za pomocą polecenia mkdir -p (parent) utworzyłam katalogi ukos/to/jest/za/dluga/nazwa
+5. Stworzyłam plik dane.txt w folderze nazwa/
+6. Za pomocą rm *.txt usunęłam wszystkie pliki z tym rozszerzeniem
+7. Za pomocą rm -rf usunęłam niepusty folder o nazwie katalog/
+8. Usunęłam za pomocą rm -rf katalog klamka/
