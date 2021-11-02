@@ -1,0 +1,4 @@
+Zaleznie od tego jaka maske przyjmiemy dla danego folderu, kazdy kolejny nowo powstaly plik
+bedzie posiadal prawa dostepu, jakie narzuca  mu maska folderu. Zasada ta nie dziala dla plikow,
+ktore istnieja juz w folderze. Prawa plikow, ktore istanialy w folderze przed zmiana maski, mozna zmienic
+przy pomocy programu "chmod". 
