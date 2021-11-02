@@ -1,0 +1,19 @@
+Zadanie1{
+	
+	umask 777
+	touch test1.txt
+	ls -l test1.txt
+
+daje to uprawnienia rowne:
+---------
+
+	umask 000
+	touch test2.txt
+	ls -l test2.txt
+daje to uprawnienia rowne:
+-rw-rw-rw-
+
+ciezko to ujac w slowa
+chmod?
+zmiana uprawnien
+}
