@@ -1,1 +1,5 @@
-Tutaj nie wiem co zrobic ale ogarne i uzupelnie :)
+1. Utworzyłam sieć katalogów i podkatalogów, oraz kilka plików w niektórych z nich. Aby pozmieniać prawa dostępu
+użyłam komendy chmode, np. chmode g+r, co miało na celu dać grupie możliwość odczytu (read), natomiast usunełam
+możliwości zapisu, czy praw do wykonywania przez grupę (chmode g-w, chmode g-x). Dla różnych katalogów i plików ustawiłam odmienne warianty. Następnie z kolegą próbowaliśmy na wzajem wejść do swoich katalogów, że sprawdzić jakie czynności możemy wykonać dla dajego katalogu i czy zgadza się to z tym jak wcześniej próbowaliśmy dane prawa przypisać.
+
+2.   
