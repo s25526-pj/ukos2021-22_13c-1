@@ -21,3 +21,37 @@ nazwę użytkownika, ale wszystkie pomysły co tam wpisać żeby działało się
 troche po kilku kolejnych romantycznych randkach, gdzie jestem tylko ja, laptop, kawa i ubuntu to może się uda.
 Ale jeżeli miałabym zgadywać jakie są minimalne uprawnienia, żeby stona była widoczna to zakładałabym, że wystarczy
 pozwolić wszystkim na czytanie pliku.
+
+5. Wyszło mi coś takiego:
+ubuntu@bss-ubu1804:~/Desktop/Zajecia$ ls -l
+total 8
+-rw-rw-r--  1 ubuntu ubuntu    0 Nov 10 19:33 plik_test
+drwxrwxr-x  2 ubuntu ubuntu 4096 Nov 10 15:43 public_html
+drwxrwxr-x 15 ubuntu ubuntu 4096 Nov 10 15:12 trzeci-zjazd
+ubuntu@bss-ubu1804:~/Desktop/Zajecia$ umask 0644
+ubuntu@bss-ubu1804:~/Desktop/Zajecia$ touch plik_test2
+ubuntu@bss-ubu1804:~/Desktop/Zajecia$ ls -l
+total 8
+-rw-rw-r--  1 ubuntu ubuntu    0 Nov 10 19:33 plik_test
+-----w--w-  1 ubuntu ubuntu    0 Nov 10 19:42 plik_test2
+drwxrwxr-x  2 ubuntu ubuntu 4096 Nov 10 15:43 public_html
+drwxrwxr-x 15 ubuntu ubuntu 4096 Nov 10 15:12 trzeci-zjazd
+ubuntu@bss-ubu1804:~/Desktop/Zajecia$ umask 0777
+ubuntu@bss-ubu1804:~/Desktop/Zajecia$ touch plik_test3
+ubuntu@bss-ubu1804:~/Desktop/Zajecia$ ls -l
+total 8
+-rw-rw-r--  1 ubuntu ubuntu    0 Nov 10 19:33 plik_test
+-----w--w-  1 ubuntu ubuntu    0 Nov 10 19:42 plik_test2
+----------  1 ubuntu ubuntu    0 Nov 10 19:42 plik_test3
+drwxrwxr-x  2 ubuntu ubuntu 4096 Nov 10 15:43 public_html
+drwxrwxr-x 15 ubuntu ubuntu 4096 Nov 10 15:12 trzeci-zjazd
+ubuntu@bss-ubu1804:~/Desktop/Zajecia$ umask 0020
+ubuntu@bss-ubu1804:~/Desktop/Zajecia$ touch plik_test4
+ubuntu@bss-ubu1804:~/Desktop/Zajecia$ ls -l
+total 8
+-rw-rw-r--  1 ubuntu ubuntu    0 Nov 10 19:33 plik_test
+-----w--w-  1 ubuntu ubuntu    0 Nov 10 19:42 plik_test2
+----------  1 ubuntu ubuntu    0 Nov 10 19:42 plik_test3
+-rw-r--rw-  1 ubuntu ubuntu    0 Nov 10 19:43 plik_test4
+drwxrwxr-x  2 ubuntu ubuntu 4096 Nov 10 15:43 public_html
+drwxrwxr-x 15 ubuntu ubuntu 4096 Nov 10 15:12 trzeci-zjazd
