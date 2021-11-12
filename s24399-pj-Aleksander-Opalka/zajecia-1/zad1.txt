@@ -1,0 +1,17 @@
+ZAD1{
+
+1:done
+2:ls
+3:pwd
+4:cd Desktop/
+5:pwd
+6:ls -a
+7:nie, nie zobaczymy uprawnien do plikow tak latwo
+8:ls Desktop/
+9:cd Pictures/
+10:pwd
+11:teraz wiem ze przenosi to do katalogu w ktorym sie znajdujemy obecnie
+12:cd /home/<username>/Desktop/
+13:jako zwykly user permission denied, wystarczy wklepac sudo su -. Ale tez wtedy trzeba wklepac ls -a bo zawartosc ukryta?
+14:W ubuntu server tym skrotem przenosilo sie na pierwszy pulpit.
+}
