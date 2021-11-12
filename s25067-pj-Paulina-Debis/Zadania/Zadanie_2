@@ -12,7 +12,9 @@ Polecenie chmod możemy wykonać kiedy jesteśmy właścicielem pliku/katalogu.
 W przypadku kiedy nie mamy prawa wstępu do katalogu ABC ale mamy dostęp do katalogu podrzędnego XYZ, to nie mamy 
 możliwości wejść do katalogu XYZ.
 
-3.
+3. Utworzyłam plik komendą vim, zmieniłam prawa dostępu przy użyciu chmod, wpisałam treść, a komenda cat pozwolila na wyświetlenie zawartosci pliku bez potrzeby otwierania go.
+Różnica pomiędzy > i >> jest taka, że > nadpisuje a >> dołącza plik.
+Komenta tail -f służy do wyprowadzania dołączonych danych w miarę wzrostu pliku.
 
 4. Utworzyłam pliki z odpowiednią treścią, względem treści zadania. Następnie dodałam wszystkie 
 uprawnienia. Na terminalu wszystko wygląda na założone poprawnie, proces przebiegał bezproblemowo, natomiast nie 
