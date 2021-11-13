@@ -44,3 +44,10 @@ ubuntu@bss-ubu1804:~/Desktop/Zajecia/trzeci-zjazd/s25067-pj-Paulina-Debis/Zadani
 USER PIS %CPU %MEM VSZ RSS TTY STAT START TIME COMMAND
 
 Znak zapytania w kolumnie drugiej jest przy TTY, czyli TeleTYpewriter.
+
+2.
+Uruchomiłam terminal i za pomocą komendy ps -aux sprawdziłam jaki numer PID ma ten proces. W tym przypadku było to 1159. Następnie użyłam komendy kill 1159 i ku mojeju zaskoczeniu, udało się, terminal się wyłączył.
+Skorzystałam potem też z komendy killall shell, po której terminal również się wyłączył, ale szczerze mówiąc nie widzę
+różnicy pomiędzy tymi dwoma komendami w praktyce.
+
+SIGKILL – unicestwienie procesu co może powodować utratę wszystkich zawartych w nim danych.
