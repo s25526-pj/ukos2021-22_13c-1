@@ -1,0 +1,8 @@
+ZADANIE2{
+mkdir ukos, cd ukos,mkdir klamka,cd klamka, touch zajecia2.txt zajecia2.log inny.txt nowy.txt
+mkdir ukos/to/jest/dluga/nazwa
+touch ukos/to/jest/dluga/nazwa dane.txt
+cd ukos/klamka, rm *.txt
+rm -r ukos/katalog/katalog2
+rm -r ukos/klamka
+}

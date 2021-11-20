@@ -1,0 +1,4 @@
+2021.10.22
+Drogi pamiętniki na ostatnich zajęciach nauczyłem się:
+1.Podstawowej obsługi gita i githuba
+2.Instalacji linuxa na wirtualnej maszynie

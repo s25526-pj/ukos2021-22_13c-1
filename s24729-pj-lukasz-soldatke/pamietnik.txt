@@ -1,0 +1,5 @@
+2021.10.09
+Dzisiaj nauczyłem się:
+- Komend i struktury katalogów Linuxa;
+- Jak skonfigurować maszynę wirtualną;
+- Podstaw gita
