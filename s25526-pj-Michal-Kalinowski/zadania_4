@@ -22,9 +22,9 @@ ls | grep -e '^al'
 
 Zadanie 6
 
-a)chmod 
-b)chmod
-c)chmod 7
+a)chmod 007
+b)chmod 040
+c)chmod 700
 
 Zadanie 7
 ls -p|grep -v/ >plik
