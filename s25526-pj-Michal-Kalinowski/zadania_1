@@ -1,5 +1,25 @@
 Zadanie 1
 
+1. Uruchomiłem terminal
+2. Komendą ls wypisałem zawartość katalogu
+3. Po wpisaniu komendy pwd wypisana została ścieżka katalogu w którym sę znajduje
+4. Aby przejść do katalogu pulpit za pomocą ścieżki względnej muszę wiedzieć gdzie się znajduję, oraz użyć komendy cd + ścieżka do pulpitu.
+5. Jestem na pulpicie cusermichaldesktop
+6. Przy uzyciu ls wypisałem wszystko co mam na pulpicie
+7. Tak 
+8. Wpisałem ls home/user/michal i wyświetliło mi zawartość katalogu michal
+9. Wpisałem cd ../Obrazy
+10. Użyłem komendy pwd
+11. Nadal w tym samym katalogu :(
+12. cd home/user/michal
+13. Permision denied
+14. Przełącza terminal
+
+
+
+
+Zadanie 2
+
 Zadanie polega na stworzeniu kilku katalogow oraz plikow oraz uzyciu podstawowych komend do operacji nad nimi.
 
 1.Kataogi tworzymy za pomoca komendy mkdir "nazwa katalogu".
