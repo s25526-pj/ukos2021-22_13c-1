@@ -1,3 +1,27 @@
+2021-11-25
+Drogi pamietniku,
+ostatnie zajecia byly powtorka przed zblizajacym sie kolokwium. Mielismy
+okazje przejrzec i powtorzyc caly material w ramach krotkich zadan.
+Sama powtorka byla bardzo pomocna, moglismy utrwalic sobie niektore rzeczy,
+plus dopytac o niejasnosci. Poza samym materialem powtorkowych, prowadzacy
+zaznajomil nas rowniez z tzw.'regular expressions', w skrocie 'regex'. 
+Jest to bardzo przydatna funkcja w Linuxie, pozwalajaca filtrowac pliki/foldery
+wedlug kryteriow, ktore sami mozemy nadac.
+Takimi podstawowymi regex'ami sa:
+^a - pokazuje pliki zaczynajace sie od 'a'
+$a - pokazuje pliki konczace sie na 'a'
+| - oznacza lub/albo
+[] - nawias kwadratowy pozwala zawrzec kilka literek do wyszukania. Dodajac '-'
+miedzy nimi, mozemy stworzyc zakres, np. [a-c], wyswietla wszystko co ma a,b,c.
+[^a] - wyszukuje wszystko, OPROCZ 'a'
+? - dodajac znac zapytania po danej literce, pozwala na zignorowanie jej jesli
+bedzie taka potrzeba. Nie bedac pewnym nazwy pliku, ktorego szukamy. 
+Przykladowo, kryterium 'ko?t', bedzie pasowac do pliku o nazwie 'kot' i 'kt'
+
+Przydatnym 'trickiem' o ktorym sie dowiedzilismy to ponizsza komenda:
+ls -p - dodaje na koncu folderu slash '/'. Dzieki temu mozna wylaczyc z
+wyszukania wszystkie foldery, wykluczajac pliki z slashem na koncu. 
+
 2021-11-15
 Drogi pamietniku,
 
