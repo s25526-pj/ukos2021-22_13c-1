@@ -12,7 +12,7 @@ Zadanie 1
 10. Użyłem komendy pwd
 11. Nadal w tym samym katalogu :(
 12. cd home/user/michal
-13. Permision denied
+13. Permision denied do katalogu superużytkownika root
 14. Przełącza terminal
 
 
