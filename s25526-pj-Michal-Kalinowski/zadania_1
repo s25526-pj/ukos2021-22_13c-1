@@ -6,7 +6,7 @@ Zadanie 1
 4. Aby przejść do katalogu pulpit za pomocą ścieżki względnej muszę wiedzieć gdzie się znajduję, oraz użyć komendy cd + ścieżka do pulpitu.
 5. Jestem na pulpicie cusermichaldesktop
 6. Przy uzyciu ls wypisałem wszystko co mam na pulpicie
-7. Tak 
+7. Tak, przechodząc do tego katalogu w sposób graficzny otrzymamy to samo 
 8. Wpisałem ls home/user/michal i wyświetliło mi zawartość katalogu michal
 9. Wpisałem cd ../Obrazy
 10. Użyłem komendy pwd
