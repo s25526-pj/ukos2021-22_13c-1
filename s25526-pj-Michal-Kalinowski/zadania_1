@@ -27,5 +27,5 @@ Zadanie polega na stworzeniu kilku katalogow oraz plikow oraz uzyciu podstawowyc
 3.Bedac w katalogu domowym wpisujemy komende "mkdir -p ukos/to/jest/dluga/nazwa.
 4.Plik dane.txt tworzymy za pomoca komendy touch dane.txt.
 5.Aby usunac pliki z rozszerzeniem .txt z katalogu klamka korzystamy z komendy rm -r *.txt (*-wypelnienie znakow przed .txt)
-6.Do usuniecia katalogu korzystamy z koemndy rmdir ukos/katalog/katalog2 ostatni katalog w danej sciezce zostanie usuniety.
+6.Do usuniecia katalogu korzystamy z komendy rmdir ukos/katalog/katalog2 ostatni katalog w danej sciezce zostanie usuniety.
 7.Aby usunac folder z plikami w srodku musimy skorzystac z komendy rm -r ukos/klamka.
