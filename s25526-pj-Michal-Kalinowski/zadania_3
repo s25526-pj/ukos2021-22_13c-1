@@ -15,12 +15,13 @@ Zadanie 2
 
 Zadanie 3
 
-1.1 Po wpisaniu cat bez parametrów nic się nie dzieje, tylko terminal się blokuje.
-1.2 ctrl + c odblokowało terminal
+1.1 Po wpisaniu cat bez parametrów nic się nie dzieje(już wiem że jednak trochę się dzieje, cat wywołany bez parametrow wpisuje stdin na stdout), tylko terminal się blokuje.
+1.2 ctrl + c przerwało działanie polecenia cat i odblokowało terminal
 
 2.1 Po wpisaniu polecenia cat > wynik1.txt oraz wpisaniu witaj w terminalu i wciśnięciu 
 ctrl + c w pliku nic sie nie znajdzie, ponieważ ctrl + c zabiło ten proces przed zapisaniem.
 
 3.1  Po wpisaniu polecenia cat > wynik2.txt oraz wpisaniu witaj w terminalu i wciśnięciu 
-ctrl + d w pliku znajduje sie zapisany tekst ponieważ ctrl + d zabija proces, dopiero po skończeniu jego pracy.
+ctrl + d w pliku znajduje sie zapisany tekst ponieważ ctrl + d zamyka stdin i zapisuje to co zostało wpisane bez potrzeby wciskania enter'a, a następnie zakończy swoją pracę.
+
 
