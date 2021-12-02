@@ -14,5 +14,5 @@ a do folderów rwxrwxrwx (ósemkowo 777) jeśli maska jest wyłączona.
 Podczas tworzenia pliku dostaje się inne uprawnienia, a mianowicie rw-r--r-- (z domyślną moją maską 022).
 Przyznawane uprawnienia przechodzą bramka AND z zanegowaną wartością maski.
 Jeśli nasza maska równa się 022 to po rozłożeniu jej i zapisaniu binarnie będzie się równać 000 010 010, a po negacji 111 101 101, dlatego też ostateczne prawo dostępu do pliku, które otrzymamy będzie rw-r--r--.
-Dlatego w podpunkcie 9* z maską 777 odebrało mi wszystkie prawa.
+Dlatego w podpunkcie 9* z maską 777 odebrało mi wszystkie uprawnienia.
 
