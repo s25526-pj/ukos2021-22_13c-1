@@ -1,6 +1,6 @@
 1. 
-wzglêdna: cd ../../../kot/ma/ale
-bezwzglêdna: cd /tmp/ukos/kot/ma/ale
+wzglÄ™dna: cd ../../../kot/ma/ale
+bezwzglÄ™dna: cd /tmp/ukos/kot/ma/ale
 
 2.
 
@@ -36,8 +36,8 @@ ls -p | grep -v / > listaplikowwtymkatalogu.txt
 
 8.
 
-- Ktoœ namiesza³ w permisjach i odebra³ mi prawa.
-- Przydzielone dla mnie miejsce jest w pe³ni zajête
+- KtoÅ› namieszaÅ‚ w permisjach i odebraÅ‚ mi prawa.
+- Przydzielone dla mnie miejsce jest w peÅ‚ni zajÄ™te
 
 9. 
 
