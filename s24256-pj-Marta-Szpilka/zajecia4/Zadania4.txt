@@ -1,36 +1,60 @@
-1. 
-ps = wyświetla podstawowe informacje o powłokach procesów;
-ps -a = wyświetla informacje również o procesach innych użytkowników;
-ps x = wyświetla również procesy niepodłączone do terminala;
-ps aux = wyświetla powyższe procesy oraz nazwe użytkownika;
+1. Przejście z katalogu "kota" do katalogu "ale"
 
-1.1 Użyłam 
-ps aux | grep bash 
-1.2 Użyłam 
-ps aux | grep root
+ścieżka względna
+../../kot/ma/ale/
 
-2. 
-1.Uruchomiłam edytor tekstowy;
-2.wpisałam ps aux;
-3.wpisałam kill numer PID;
--na początku w terminalu nie było widać różnicy, program zakończył się po wpisaniu fg %numer (który otrzymujemy po wpisaniu jobs);
-4. po wpisaniu killall shell 
-- w szuflandii nic się nie stało;
-- w maszynie wirtualnej wyświetlił się komunikat "no process found"
-5. Komenda kill nie jest dozwolona do użycia na procesach innych użytkowników;
+ścieżka bezwzględna
+/tmp/ukos/kot/ma/ale/
 
-3. 
-1. Wpisałam cat
-2. Po wybraniu "ctrl + C", cat zostało zamknięte bez zapisania
+2. Utworzenie podkatalogów jan/kowalski w katalogu "ale"
 
-1. Wpisanie cat > wynik1.txt, po wpisaniu "witaj" i wciśnięciu "ctrl + C", cat zostało zamknięte bez zapisania - plik wynik1.txt został pusty
-2. Wpisanie cat > wynik2.txt, po wpisaniu "witaj" i po wybraniu "ctrl + D" (dwa razy), po wpisaniu cat witaj2.txt - "witaj" pokazuje się przed moją nazwą na szuflandii;
+mkdir -p ale/jan/kowalski/
 
-4. 
-1. Wpisałam vim, ponieważ na szuflandii nie ma gimp'a
-2. Po wybraniu "Ctrl + Z" program przeniósł się do tła
-3. Wpisałam bg, pokazał mi się komunikat, że vim działa w tle i jest zatrzymany
-4. Po wpisaniu fg - vim otworzył się znów
+3. Przeniesienie katalogu "ale" do katalogu "i" będąc w katalogu "kota"
 
-1. Po wpisaniu nano & - program od razu przeniósł się do tła
-2. Aby przywrócić program na pierwszy plan należy wpisać fg %numer (z jobs)
+Pierwszy sposób:
+mv /tmp/ukos/kot/ma/ale/ /tmp/ukos/ala/i/
+
+Drugi sposób:
+mv ../../kot/ma/ale/ ../../i/
+
+4. Program, który nie odpowiada na "Ctrl + C" nalezy zamknąć wysyłając sygnał kill z numerem procesu.
+
+5. Wypisanie wszystkich plików, które zaczynają się od "al"
+
+ls | grep -e "^al"
+
+6. Uprawienia do katalogu <ala>:
+
+Pierwszy sposób:
+- każdy, mógł wejść - chmod o+x ala; chmod o-rw ala
+- grupa mogła wyświetlić - chmod g+xr ala; chmod g-w ala;
+- właściciel ma pełne prawa - chmod u+rwx ala;
+
+Drugi sposób:
+- chmod 751 ala
+
+7. Utworzenie pliku z listą plików w bierzącym katalogu.
+ls -p | grep -v / > Listaplikow.txt
+
+8. Brak możliwości do utworzenia plików. 
+
+- mogłam niechcący sama przez przypadek zmienić sobie uprawienia do folderów;
+- administrator mógł zablokować mi daną możliwość;
+- jakiś inny uczeń zmienił mi uprawienia, ponieważ wcześniej przypisałam np. chmod 777;
+
+9. Klawisz TAB, przyśpiesza wpisywanie komend w terminalu.
+
+20. Aby program nie blokował terminala i działałw tle należy wpisać:
+
+Pierwszy sposób:
+- polecenie &
+- bg (aby sprawdzić czy działa w tle)
+
+Drugi sposób:
+- polecenie;
+- ctrl + Z;
+- bg (aby sprawdzić czy działa w tle) 
+
+
+
