@@ -1,0 +1,45 @@
+====================
+Wykonanie zadań nr.2
+====================
+
+================================================================================
+1.Uruchamiam edytor textu. W terminalu widnieje jako "gedit"
+2.Wyszukuję jego PID za pomocą polecenia
+  
+  ps ux | grep gedit,
+ 
+  gdzie polecenie ps służy do wyświetlenia migawki aktywnych procesów, argumenty
+  ux nakierowują by wyświetliło mi procesy: u (user, czyli by mi nie spamowało
+  dodatkowo procesami roota), x (czyli też te uruchimione poza terminalem).
+  Dołożyłem dodatkowo do polecenia filtr "| grep gedit" by pokazywało mi 
+  wszytkie linie w terminalu zawierające wyraz "gedit".
+
+================================================================================  
+3.Polecenie kill -sigkill też działa.
+  Polecenie pkill gedit ma to samo działanie co kill tylko używa nazwy procesu.
+  
+  Polecenie kill (numer PID) skutecznie uśmierca edytor tekstu. Numer PID za
+  każdym razem może być inny, w zależności od tego w jaki sposób działa
+  mechanizm rezerwujący zasoby na utworzenie procesu i nadnie numeru  PID.
+  
+  Warunek jest taki że nie może być dwóch takich samych numerów PID.  
+  
+
+================================================================================
+4.Polecenie killall shell sprawiło mi dużo problemów, bo w zasadzie nic się
+  nie działo, wywaliło mi że nie ma takiego procesu.
+  
+  Wpisałem polecenie "kill -9 bash" zabiło mi terminal. To może o to chodziło?
+  W zasadzie bash to powłoka (shell) systemów UNIX-owych. Zabijając basha
+  zabiłem shella?
+
+  
+ 
+
+================================================================================
+5.Polecenie kill nie działa dla każdego procesu. Próbująć zabić proces z 
+  numerem PID 1, czyli ten najpierwsiejszy, najważniejszy, terminal
+  odmówił wykonania  polecenia. -sigkill też. :C
+  Szkoda chciałem umrzeć linuxa na śmierć, a tak będzie żył. :D
+
+

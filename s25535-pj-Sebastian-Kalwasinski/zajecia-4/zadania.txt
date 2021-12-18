@@ -1,0 +1,135 @@
+====================
+Wykonanie zadań nr1.
+====================
+
+================================================================================
+1.Ścieżka względna zaczyna się od miejsca w którym się znajdujemy i jest
+  od niego zależna. W moim przypadku to będzie tak:
+    
+   cd ../../../kot/ma/ale
+   
+
+  Ścieżka bezwzględna zaczyna się od katalogu głównego oznaczonego slashem "/"
+  i to od niego zaczynamy. np: /home /tmp /bin /usr
+  
+   cd /tmp/ukos/kot/ma/ale
+
+===============================================================================
+2.Używam obu scieżek w połączeniu z poleceniem mkdir z argumentem -p
+  by tworzyło także katalogi rodzica (parent) jeśli wymagane. Coś takiego:
+
+  mkdir -p /tmp/ukos/kot/ma/ale/jan/kowalski    Bezwzględna
+
+  lub:
+  
+  mkdir -p ../../..kot/ma/ale/jan/kowlaski      Względna
+
+================================================================================
+3.Do wykonania tego zadania używam polecenia mv (move), które służy do 
+  przenoszenia katalogów/plików, lub zmiany ich nazwy.
+  W tym przypadku przenosimy katalog "ala" do katalogu "i" Coś takiego:
+
+  mv /tmp/ukos/kot/ma/ale   /tmp/ukos/ala/i/    Bezwzględna
+  1= =========2==========   ========3=======
+
+
+  Na pierwszy rzut oka nie widać, ale polecenie zawiera trzy, a nie dwa elementy
+  Pierwszy to samo polecenie "mv", drugi to katalog "ale" wskazany za pomocą
+  ścieżki bezwzględnej, a trzeci to katalog "i" do którego również prowadzi
+  ścieżka bezwzględna.
+
+  Lub:
+
+  mv ../../../kot/ma/ale   ../../ala/i         Względna
+ 
+================================================================================
+4.Czerwonym krzyżykiem w rogu, chyba że ta odpowiedź jest niedozwolona. xD      
+
+  Jeśli terminal działa to mogę użyć poleceń:
+  
+   ps aux | grep "nazwa programu"
+  
+   kill -SIGKILL PID
+   kill -KILL PID
+   kill -9 PID
+   
+  To zadanie wykonuję zakładając że tylko program nie reaguje, a terminal
+  działa bez problemów. Drażniło mnie zagadnienie w którym terminal też by
+  nie współpracował. W takim razie metodą prób i błędów wymyśliłem rozwiązanie.
+  Mógłbym przełączyć się na terminal virtualny kombinacją Ctrl+Alt+F1 i dopiero 
+  z tego terminala uśmiercić nieopowiadjący program. Login do tego terminala
+  to "ubuntu" bez hasła. Ten terminal działa w zasadzie tak samo jak ten
+  z którego przywykłem korzystać.
+  
+
+================================================================================
+5. Sposób by znaleźć katalogi:
+ 
+   ls -ap | grep -v /
+  
+  Polecenie ls z argumentem -pa służy do wylistowania plików i 
+  katalogów oraz ma dodać slash '/' na końcu jeśli jest to katalog.
+  W połączeniu z poleceniem grep z argumentem '-v', który odwraca jego działanie
+  (grep znajduje wszytko co nie zawiera podanej frazy) otrzymujemy komendę,
+  która wypisuje tylko pliki.
+  Dalej możemy dodać nasępny filtr który znajduje wyrazy które zaczynją się od
+  "a1"
+
+  ls -ap | grep -v / | grep '^a1'
+
+  To polecenie umożliwia wyświetlenie plków których nazwa zaczyna się od "a1".
+ 
+  
+  
+================================================================================
+6. Ma to tak wyglądać
+
+  =============
+    rwxr----x
+    111100001
+    -7--4--1-
+  ============= 
+
+  Notacja ósemkowa: chmod 741 ala
+  
+  Notacja symboliczna: chmod u=rwx,g=r,o=x ala".    
+ 
+  Jeśli chcemy nadać wiele uprawnień za pomocą notacji symbolicznej należy podać
+  wiele argumentów po przecinku bez spacji, a potem nazwę katalogu.
+   
+
+================================================================================
+7.Plik z listą PLIKÓW w bieżącym katalogu
+
+  By wyświetlić zawartość katalogu używamy polecenia ls
+  By zapisać wynik działania jakiegoś polecenia w pliku mogę użyć operatora ">"
+
+  By zrobić listę PLIKÓW w pliku w bierzącym katalogu mogę złożyć w całość
+  następujące polecenie
+
+  ls -ap | grep -v / >mój_plik
+  ==1===  ===2====  3= ===4===
+ 
+  1.Polecennie do wypisania zawartości bieżącego katalogu
+  2.Filtr pozbywający się katalogów, zostawiający pliki
+  3.Operator strumienia "Umieść mi wynik działania polecenia nr2. tutaj"
+  4.Plik do którego zampisane zostaną dane.
+  
+================================================================================
+8.
+  1.Nie mam przydzielonych uprawnien do katalogu w którym chcę utworzyć plik.
+  2.Serwery padły/Internet mi padł i mnie zaraz wywali.
+  3.Przydzielone mi miejsce na dysku uczenianym się skończyło
+
+================================================================================
+9.TAB-ulator. Oczywiście trzeba podać początek by miał co uzupełniać.
+================================================================================
+10.Najprostszy sposób to mogę go w interfejsie graficznym uruchomić. A tak 
+  jak ma być rozwiązane to zadanie to:
+  
+ 1. Za pomocą polecenia ""nazwa programu" &". np: "gedit &"
+ 2. Za pomocą działań kolejno:
+    polecenie "nazwa programu" ---> kombinacja Ctrl+Z  ---> polecenie "bg"
+
+  
+

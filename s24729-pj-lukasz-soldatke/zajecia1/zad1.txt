@@ -1,0 +1,29 @@
+Zajęcia 1
+
+Zadanie 1)
+1. Uruchamiam terminal z listy aplikacji bądź skrótem klawiszowym [CTRL+ALT+T].
+2. Wyświetlam zawartość aktualnego katalogu przy pomocy komendy <ls>.
+3. Sprawdzam katalog, w którym aktualnie się znajduję przy pomocy komendy <pwd>.
+4. Będąc w katalogu użytkownika (/home/lukasz) przechodzę do katalogu Pulpit za pomocą 
+	ścieżki względnej przy użyciu polecenia <cd ./Pulpit>.
+5. Sprawdzam gdzie jestem wpisując <pwd>. (wynik polecenia: /home/lukasz/Pulpit)
+6. Ponownie wyświetlam zawartość bieżącego katalogu przy pomocy polecenia ls
+7. Otrzymuję tą samą zawartość poprzez komendę <ls> w terminalu oraz poprzez udanie się 
+	do tego samego folderu Pulpitu poprzez interfejs graficzny za wyjątkiem skrótów do katalogu 
+	użytkownika oraz kosza, które nie są widoczne w terminalu.
+8. W celu wyświetlenia zawartości swojego katalogu domowego używam polecenia <ls ~> lub <ls ../>
+	(znajdując się aktualnie w folderze Pulpit, z użyciem ścieżki względnej) lub korzystając ze 
+	ścieżki bezwzględnej: <ls /home/lukasz>.
+9. Znajdując się w folderze Pulpit, który znajduje się w katalogu użytkownika, przechodzę do katalogu 
+	Obrazy wykorzystując ścieżkę względną w poleceniu <cd ../Obrazy>.
+10. Po raz kolejny sprawdzam w jakim katalogu obecnie się znajduję przy pomocy komendy <pwd>. 
+	(wynik polecenia: /home/lukasz/obrazy)
+11. Wpisując <cd ././././././> pozostanę w tym samym katalogu, w którym byłem przed użyciem tego polecenia.
+12. Używam komendy </home/lukasz>.
+13. Pojawia się wiadomość o braku dostępu, dlatego że jest to próba przejścia do katalogu konta root, 
+	mającego pełną kontrolę nad systemem operacyjnym. Z tego względu dostęp jest utrudniony aby 
+	zapobiec szkodliwym lub po prostu nieautoryzowanym działaniom.
+14. Wciśnięcie kombinacji [CTRL+ALT+F1] powoduje zablokowanie ekranu (Ubuntu 20.04 LTS). We wcześniejszych 
+	wersjach systemu przechodziło się w ten sposób do pełnoekranowej konsoli Linuxa, pomiędzy takimi 
+	konsolami można było przełączać się za pomocą kombinacji klawiszy [CTRL+ALT+(F1-F6)]. Użycie 
+	kombinacji [CTRL+ALT+F7] przełączało na środowisko graficzne.
