@@ -1,16 +1,22 @@
-2021.10.21
+2021.10.09
 Na ostatnich zajeciach nauczylem sie podstawowej obslugi github'a oraz linuxa.
-2021.11.05  
-Na poprzednich zajęciach nauczyłem się jak wygenerować token na githubie oraz klucz SSH. Poznałem również podstawy modyfiakcji dostępu do folderów w moim katalogu.
+2021.10.23
+Na ostatnich zajęciach nauczyłem się:
+-Operacji między katalogami
+-Co zrobić z programami które nie odpowiadają
+-Nadawanie uprawnień użytkownikom 
 2021.11.06
 Na ostatnich zajeciach nauczyłem się jak działa komenda:
 -kill
 -sleep
 -job,
 -fg
-2021.10.11
-Na ostatnich zajęciach nauczyłem się:
--Operacji między katalogami
--Co zrobić z programami które nie odpowiadają
--Nadawanie uprawnień użytkownikom 
+2021.11.20
+Powtórzyliśmy materiał do kolokwium i rozwialiśmy wszystkie wątpliwości dotyczące komend w linuxie i ścieżek.
 I wielę wiecej!
+2021.12.04
+Napisaliśmy kolokwium
+2021.12.18
+Na tych zajęciach powtórzyliśmy i rozwineliśmy swoją wiedzę o gicie. Bardzo wartościowe zajęcia, przydyały się na rozmowie o pracę :)
+2022.01.15
+Poprawiłem kolokwium dzięki dobroduszności wykładowcy <3, oraz poznaliśmy troszkę PowerShella, też bardzo przydatne w pracy ;)
